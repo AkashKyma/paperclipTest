@@ -1,1 +1,77 @@
+<<<<<<< HEAD
 # paperclipTest
+=======
+<<<<<<< HEAD
+# zero-human-sandbox-two
+
+## Backend routes
+
+This repository now includes a minimal Node.js backend server with health-check and ping endpoints.
+
+### Install
+
+```bash
+npm install
+```
+
+### Run
+
+```bash
+npm start
+```
+
+### Development mode
+
+```bash
+npm run dev
+```
+
+### Quick validation
+
+```bash
+npm test
+```
+
+### Health-check endpoint
+
+```bash
+curl http://localhost:3000/health
+```
+
+Expected response:
+
+```json
+{
+  "status": "ok"
+}
+```
+
+### Ping endpoint
+
+```bash
+curl http://localhost:3000/ping
+```
+
+Expected response:
+
+```json
+{
+  "pong": true
+}
+```
+
+### Port note
+
+If port `3000` is already busy in your environment, you can run the server on another port:
+
+```bash
+PORT=3100 npm start
+```
+=======
+<<<<<<< HEAD
+# testing_2
+=======
+# paperclipTest
+>>>>>>> a15ee19 (Initial commit)
+>>>>>>> 810eed4 (feat: Implement React virtual event platform with interactive features)
+>>>>>>> 1d6b85b (feat: Create React marketplace seller dashboard with essential features)
