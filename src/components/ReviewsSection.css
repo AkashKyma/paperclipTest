@@ -1,0 +1,10 @@
+.reviews-section {
+  margin: 20px 0;
+}
+
+.review {
+  background-color: #e0e0e0;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
