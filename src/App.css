@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+  background-color: #f0f0f0;
+  min-height: 100vh;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+main {
+  padding: 20px;
+}
+
+.workout-cards, .calorie-summary, .progress-charts, .meal-tracker, .schedule-panel, .profile-section {
+  background: white;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
