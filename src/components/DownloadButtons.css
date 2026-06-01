@@ -1,0 +1,25 @@
+.download-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.download-buttons a {
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+.app-store-button {
+  background-color: #0070c9;
+}
+
+.google-play-button {
+  background-color: #34a853;
+}
+
+.download-buttons a:hover {
+  opacity: 0.8;
+}
