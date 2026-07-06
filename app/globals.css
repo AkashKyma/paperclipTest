@@ -200,16 +200,21 @@ td {
   .hero,
   .sectionHeader,
   .appendixList a {
-    grid-template-columns: 1fr;
     display: grid;
+    grid-template-columns: 1fr;
   }
 
   .sectionHeader {
     align-items: start;
   }
 
+  .appendixList a {
+    justify-content: start;
+  }
+
   .appendixList code {
     white-space: normal;
-    word-break: break-all;
+    overflow-wrap: anywhere;
+    word-break: break-word;
   }
 }
